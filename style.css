@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 90px;
+    box-sizing: border-box; /*Width and height apply to all parts of the element: content, padding and borders*/
+  }
+
+nav{
+    display: flex;
+    justify-content: right; 
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px; 
+    font-size: small;  
+}
+
+a:link{
+    text-decoration: none;
+  }
+
+a:visited{
+    color:inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+a:active{
+    color:rgb(24, 112, 141);
+}
+
+#name{
+    display: flex;
+    color: rgb(72, 119, 182);
+    justify-content: center;
+}
+
+
+#home{
+    display: flex;
+    padding: 50px;
+
+}
+
+.index img{
+    display: flex;
+    border-radius: 20%;
+    position: static;
+}
+
+#about{
+    display: block;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#about h1{
+    color: rgb(24, 112, 141);
+}
+
+.resume img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(24, 112, 141);
+    color: white;
+    padding: 10px;
+}
+
+#search{
+    display: flex;
+    justify-content: space-around;
+}
+
+#search > div{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+#class{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:column;
+    
+}
+
+#class div{
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#class img{
+    padding: 50px
+}
+
+#class h2{
+    padding: 20px;
+}
+
+#class h3{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+
+
+#class p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+footer{
+    display: block;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: small;
+    margin-top: 30px;
+    padding: 5px;
+}
